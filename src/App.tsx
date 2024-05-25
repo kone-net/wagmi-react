@@ -6,6 +6,7 @@ import { WalletOptions } from './wallet/WalletOption'
 
 function ConnectWallet() {
   const { isConnected } = useAccount()
+  console.log("isConnected is ", isConnected)
   if (isConnected) return <Account />
   return <WalletOptions />
 }
