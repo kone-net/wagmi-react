@@ -1,5 +1,6 @@
 import { useAccount, useDisconnect, useEnsAvatar, useEnsName, useBalance } from 'wagmi'
 import {SendTransaction} from '@/wallet/SendTransaction'
+import { ReadContract } from '@/wallet/ReadContract'
 
 export function Account() {
   const { address, isConnected } = useAccount()
@@ -23,6 +24,7 @@ export function Account() {
       <button onClick={() => disconnect()}>Disconnect</button>
 
       <SendTransaction />
+      <ReadContract />
     </div>
   )
 }
