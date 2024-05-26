@@ -1,4 +1,3 @@
-import { http, createConfig } from 'wagmi'
 import {
   mainnet,
   polygon,
@@ -7,11 +6,10 @@ import {
   base,
   localhost,
 } from 'wagmi/chains';
-import { injected, metaMask, safe, walletConnect } from 'wagmi/connectors'
-
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
-
-const projectId = '<WALLETCONNECT_PROJECT_ID>'
+// import { http, createConfig } from 'wagmi'
+// import { injected, metaMask, safe, walletConnect } from 'wagmi/connectors'
+// const projectId = '<WALLETCONNECT_PROJECT_ID>'
 
 // export const config = createConfig({
 //   chains: [mainnet, base],
