@@ -3,6 +3,7 @@ import '@/App.css'
 import { useAccount } from 'wagmi'
 import { Account } from './wallet/Account'
 import { WalletOptions } from './wallet/WalletOption'
+import { WriteContract } from './wallet/WriteContract'
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
@@ -18,6 +19,7 @@ function App() {
         <div>
           <ConnectWallet/>
           <ConnectButton />
+          <WriteContract />
         </div>
   )
 }
