@@ -1,3 +1,5 @@
+[<img src="https://api.gitsponsors.com/api/badge/img?id=804938126" height="20">](https://api.gitsponsors.com/api/badge/link?p=o1jpLEIbdlr5yODPz/Qut3WSqLtm6n2ZfHSE5ZFkZE7SEu4qYc+hC7psaHQrHR7cbfYp7S4RrCFYR8342ZJK0A==)
+
 # Wagmi Example
 https://wagmi.sh/react/guides/tanstack-query
 
